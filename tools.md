@@ -32,7 +32,7 @@ author: officialputuid
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">SYNTX WikipedsIDN</h5>
-                <p class="card-text">Search Wikipedia Contect directly for INDONESIA version</p>
+                <p class="card-text">Search Wikipedia Content directly for INDONESIA version</p>
                 <a href="/wikipedsIDN" class="btn btn-primary">Go wikipedIDN!</a>
             </div>
         </div>
@@ -41,7 +41,7 @@ author: officialputuid
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">SYNTX WikipedENG</h5>
-                <p class="card-text">Search Wikipedia Contect directly for ENGLISH version</p>
+                <p class="card-text">Search Wikipedia Content directly for ENGLISH version</p>
                 <a href="/wikipedsENG" class="btn btn-primary">Go wikipedENG!</a>
             </div>
         </div>
