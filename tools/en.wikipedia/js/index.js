@@ -56,7 +56,7 @@ $(document).ready(function () {
 	};
 
 	function showerror(keyword) {
-		$("#resultpost").append('<p class="postsnippet" style="padding:10px; background: #f44336 !important; font-size:16px; line-height:1.5; color:#fff;"><span style="font-size:20px">Ups!</span> <br>We can\'t search<b> ' + keyword + ' </b>! Make sure the keywords you are looking for are correct.</p>');
+		$("#resultpost").append('<p class="postsnippet" style="padding:10px; font-size:16px; line-height:1.5; "><span style="font-size:20px">Ups!</span> <br>We can\'t search<b> ' + keyword + ' </b>! Pastikan kata kunci yang Anda cari sudah benar.</p>');
 	}
 
 }); //end
