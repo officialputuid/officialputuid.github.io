@@ -6,22 +6,23 @@ desc: Using the Gmail dot trick is as easy as adding a dot anywhere in a Gmail a
 permalink: /dottrick
 author: officialputuid
 ---
-		<form id="form-dot-trick" class="row">
-			<div class="col-md-7 mb-3">
-				<input type="text" id="username" class="form-control" placeholder="Input your original email">
-			</div>
-			<div class="col-md-3 mb-3">
-				<input type="text" class="form-control" class="mt-2" placeholder="@gmail.com" readonly>
-			</div>
-			<div class="col-md-2 text-center">
-				<p for="emails" id="counter" class="mt-2">Count: 0</p>
-			</div>
-			<div class="col-md-12 mt-3 text-center">
-				<textarea class="form-control" id="emails" rows="16"></textarea>
 
-				<p class="btn btn-primary mt-3"><i class="fa fa-download"></i> Save &amp; Download</p>
-			</div>
-		</form>
+<form id="form-dot-trick" class="row">
+    <div class="col-md-7 mb-3">
+        <input type="text" id="username" class="form-control" placeholder="Input your original email" />
+    </div>
+    <div class="col-md-3 mb-3">
+        <input type="text" class="form-control" class="mt-2" placeholder="@gmail.com" readonly />
+    </div>
+    <div class="col-md-2 text-center">
+        <p for="emails" id="counter" class="mt-2">Count: 0</p>
+    </div>
+    <div class="col-md-12 mt-3 text-center">
+        <textarea class="form-control" id="emails" rows="16"></textarea>
+
+        <p class="btn btn-primary mt-3"><i class="fa fa-download"></i> Save &amp; Download</p>
+    </div>
+</form>
 
 <script type="text/javascript" src="{{ site.baseurl }}/tools/dottrik/FileSaver.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/tools/dottrik/trick.js"></script>

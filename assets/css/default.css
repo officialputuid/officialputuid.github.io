@@ -1,9 +1,9 @@
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 400;
 }
 
-a:link{
+a:link {
     text-decoration: none;
 }
 
@@ -49,25 +49,25 @@ a:link{
     transition: all 0.3s;
 }
 
-.footer-custom-icons a{
+.footer-custom-icons a {
     font-size: 32px;
 }
 
-.footer-custom-icons a:not(:first-child){
+.footer-custom-icons a:not(:first-child) {
     margin-left: 16px;
 }
 
-.footer-custom-icons a i:hover{
+.footer-custom-icons a i:hover {
     transition: all 0.5s;
     color: #498af4;
 }
 
-.custom-gradient{
-        margin-top: 0.5rem !important;
-        color: #fff;
-        background: #1A2980;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.custom-gradient {
+    margin-top: 0.5rem !important;
+    color: #fff;
+    background: #1a2980; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #26d0ce, #1a2980); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #26d0ce, #1a2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* Wraper Loading */
@@ -97,7 +97,7 @@ a:link{
         margin-top: 10px;
         margin-left: 0 !important;
     }
-    #cngs-cst-denied{
+    #cngs-cst-denied {
         display: none !important;
     }
 }
